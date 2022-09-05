@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #1B224A;
+    height: 400px;
+}
+
+.scoresheet {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+@font-face {
+    src: url("timer.ttf");
+    font-family: timer_font;
+}
+
+h1 {
+    color: #F94F6D;
+    font-family: timer_font;
+    font-size: 90px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeScoreCard {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.guestScoreCard {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#new-game-containter {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+#new-game {
+    margin: 50px;
+    background-color: green;
+}
